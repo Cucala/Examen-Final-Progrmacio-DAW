@@ -1,5 +1,7 @@
 package daw.programacio.thenewmisterquestion.data;
+
 import java.sql.*;
+import java.util.ArrayList;
 
 public final class DBFacade {
     private static final String pathToDb = "jdbc:sqlite:thenewmisterquestion/src/main/resources/daw/programacio/thenewmisterquestion/data/";
